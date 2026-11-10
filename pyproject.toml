@@ -1,0 +1,9 @@
+[project]
+name = "flightbot"
+version = "0.1.0"
+description = "Bot de Telegram que busca vuelos baratos desde Argentina o Brasil"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
